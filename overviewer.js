@@ -653,9 +653,9 @@ overviewer.util = {
     'updateHash': function() {
         var currTileset = overviewer.mapView.options.currentTileSet;
         if (currTileset == null) {return;}
-        var coordinates = overviewer.util.fromLatLngToWorld(overviewer.map.getCenter().lat(), 
-                overviewer.map.getCenter().lng(),
-                currTileset);
+        //var coordinates = overviewer.util.fromLatLngToWorld(overviewer.map.getCenter().lat(), 
+                //overviewer.map.getCenter().lng(),
+                //currTileset);
         var zoom = overviewer.map.getZoom();
         var maptype = overviewer.map.getMapTypeId();
 
